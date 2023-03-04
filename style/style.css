@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header-section */
+.header{
+    background-image: url(../image/banner1.png);
+    background-repeat: no-repeat;
+    background-position: left,bottom;
+    align-items: center;
+    height: 600px;
+}
+.header-tittle{
+    text-align: right;
+    align-items: center;
+   padding: 200px 200px 100px 60%;
+}
+.header-sub-tittle{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.header-descripation{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    color: #fff;
+    background-color:darkorange;
+    border-radius: 5px;
+    border: none;
+}
+/* banner-section */
+.banner{
+    display: flex;
+    margin: 100px 200px;
+    padding: 5px;
+    gap: 100px;
+}
+.banner img{
+    height: 250px;
+    width: 300px;
+    justify-content: center;
+}
+.banner-tittle{
+    justify-content: center;
+}
+.banner-sub-tittle{
+font-size: 30px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.banner-descripation{
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.fa-solid{
+    color: red;
+}
+.banner-items{
+    font-size: 10px;
+    font-weight: 400;
+    margin: 5px;
+}
+/* plan-section */
+.plan{
+    text-align: center;
+    font-size: 45;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.plan-items{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 60px;
+   text-align: center;
+   align-items: center;
+}
+.plan-items img{
+    margin-bottom: 10px;
+}
+.plan-tittle{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.plan-sub-tittle{
+    font-size: 15px;
+    font-weight: 400;
+    color:cadetblue;
+}
+/* <!-- Educational background --> */
+.edu{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+.edu-tittle{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    max-width: 50px 200px;
+}
+.edu-tittle img{
+    height:327px;
+    width: 400px;
+    border-radius: 5px;
+}
+.edu-items{
+    border-radius: 5px;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+   background-color: rgba(252,0,127,0.95)
+}
+.edu-items-tittle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.edu-items-sub-tittle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.edu-items-descripiton{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.edu-items-sub-descripition{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+/* call-section */
+.call{
+    background-image: url(../image/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    padding: 80px 100px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    margin: 50px 200px;
+    text-align: left;
+    position: relative;
+}
+.call::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(238, 7, 7, 0.527);
+    z-index: 1;
+}
+.callContent{
+    position: relative;
+    z-index: 99;
+}
+.call-tittle{
+    font-size: 20;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.btn{
+    font-size: 15;
+    font-weight: 400;
+    padding: 8px 15px;
+    background-color:rgba(252,0,127,0.95);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+/* footer-section */
+.footer{
+    background-color: black;
+}
+.footer-tittle{
+   display: flex;
+   gap: 50px;
+   margin: 80px 200px 0 200px;
+   padding: 60px;
+}
+.fotter-item{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.item1{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.item2{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;   
+}
+.item3{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.item4{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.from{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+div input{
+    padding: 10px;
+}
+.btn-sub{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+    color:green;
+    border-radius: 5px;
+}
